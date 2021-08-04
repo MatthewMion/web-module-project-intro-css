@@ -39,7 +39,7 @@ blockquote, q {
 
 *{
 box-sizing: border-box;
-border: 1px solid grey;
+/* border: 1px solid grey; */
 padding: 0;
 margin: 0;
 max-width: 100%;
@@ -68,14 +68,13 @@ a{text-decoration: none;
 
 /* Header Section Styles */
 
-
 nav{ 
     padding: 2% 0;
 }
 
 nav a{
     display: inline-block;
-    padding: 0.5% 0;
+    padding: .3% 0;
     width: 15%;
     border-radius: 10px;
     font-size: 1.4rem;
@@ -85,11 +84,12 @@ nav a{
 
 .nav-item-1{
     background-color: #FF764E;
+    margin-left: 12%;
 }
 
 .nav-item-2{
     background-color: #5ED3EB;
-    margin: 0 20%;
+    margin: 0 15%;
 }
 
 .nav-item-3{
@@ -99,6 +99,8 @@ nav a{
 /* Top section styles */
 
 .top{
+    position: relative;
+    color: black;
 }
 
 .left, .right{
@@ -106,14 +108,28 @@ nav a{
 }
 
 .left{
-    width: 25%;
+    margin-left: 7%;
+    width: 20%;
     border-radius: 50%;
 }
 .left-pic{
     border-radius: 50%;
 }
 
+.right{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.right p{
+    font-size: 1.35rem;
+    margin-left: 7%;
+}
+
 
 h1{
     font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
    }
