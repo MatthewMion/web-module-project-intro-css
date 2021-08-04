@@ -142,7 +142,7 @@ h1{
 }
 .main-text{
     background-color:#DDB9A3;
-    margin: 0 2%;
+    margin: 0 3%;
     color:#FFFFFF;
     font-size: 1.7rem;
     text-align: center;
@@ -182,7 +182,7 @@ span{
 }
 .bottom{
      width: 100%;
-     height: 25vh;
+     height: 20vh;
 }
 .bottom img{
     width: 100%;
@@ -190,6 +190,7 @@ span{
 }
 footer{
     background-color:#F9E7DC;
+    padding:.75%;
 }
 
 footer a{
